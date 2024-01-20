@@ -1,0 +1,121 @@
+background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-technological-sense-geometric-line-simple-picture-image_932581.jpg);
+:root {
+ --color-white: #f3f3f3;
+ --color-darkblue: #1b1b32;
+ --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+ --color-green: #37af65;
+}
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+ font-size: 1rem;
+ font-weight: 400;
+ line-height: 1.4;
+ color: var(--color-white);
+ margin: 0;
+}
+body::before {
+ content: '';
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ z-index: -1;
+ background: var(--color-darkblue);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+  background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-technological-sense-geometric-line-simple-picture-image_932581.jpg);
+}
+h1 {
+ font-size: 50px;
+ line-height: 0.5rem;
+ color: lightslategrey;
+ box-shadow: 0 0 20px gray;
+}
+.adjust {
+ padding-top: 35px;
+ font-family: Italic;
+ font-size: 20px;
+ color: rgb(82, 63, 168);
+ font-style: italic;
+}
+.everything {
+ width: 100%;
+ color: white;
+}
+label {
+ margin: auto;
+}
+.header {
+ text-align: center;
+ margin-top: 60px;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.form {
+ background: var(--color-darkblue-alpha);
+ border-radius: 30px 30px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+ width: 660px;
+ background-color: #130303a3;
+ margin-top: 70px;
+ margin-bottom: 70px;
+ box-shadow: 0 0 20px 0;
+}
+.form-style {
+ padding: 0.3rem;
+ margin-left: 1px;
+}
+.description {
+display: block;
+width: 100%;
+height: 40px;
+color:aqua;
+background-color: #fff;
+background-clip:text;
+border: 1px solid ;
+border-radius: 0.25rem;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+textarea {
+ width: 100%;
+ resize: vertical;
+ padding: 12px;
+ background-color: rgb(15, 35, 56);
+ color: white;
+}
+input {
+ padding: 10px;
+}
+select {
+ padding: 10px;
+ margin: 0;
+}
+input[type=submit] {
+ display: block;
+ width: 90%;
+ padding: 0.6rem;
+ margin-left: 1.7rem;
+ margin-top: 40px;
+ background-color: black;
+ border: 2px solid aqua;
+ background-position:center;
+ color: white; 
+}
+.contact {
+ color: white;       
+}
+.end {
+ text-align: center;
+ box-shadow: 10px 0 cyan;
+ border-top: 0px;
+}

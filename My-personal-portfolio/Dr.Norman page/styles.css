@@ -1,0 +1,74 @@
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.general {
+    background-color: rgb(243, 243, 243);
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+.div-title {
+    display: block;
+    text-align: center;
+    color: rgb(51, 50, 50);
+  
+    padding-top: 25px;
+    
+}
+.div-title h1 {
+    font-size: 40px;
+}
+.div-img {
+    background-color: white;
+    text-align: center;
+    margin: 0 15px;
+    padding-bottom: 5px;
+    color:  rgb(51, 50, 50);
+}
+.div-info  {
+   width: 600px;
+   position: relative;
+   top: 50%;
+   left: 30%;
+   line-height: 25px;
+   
+}
+h3 {
+    text-align: center;
+    padding: 30px 0;
+    color: rgb(51, 51, 51);
+}
+.div-info ul li {
+    margin: 25px 0;
+}
+.o1 {
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+
+}
+.o2{
+    color: rgb(51, 50, 50);
+}
+.bottom-text {
+    font-style: italic;
+    color:  rgb(51, 50, 50);
+    padding: 20px 0 0px 20px;
+}
+.text1 {
+    margin-top: 25px;
+}
+footer {
+    text-align: center;
+    padding: 20px 0 30px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-text {
+  color: rgb(63, 63, 63);
+
+
+}
+.link-footer {
+    color: rgb(111, 84, 129);
+   
+}

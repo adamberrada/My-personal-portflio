@@ -1,0 +1,79 @@
+body {
+   width: 100%;
+   height: 100vh; 
+   background-color:rgb(16, 16, 39);
+   font-family: sans-serif;
+   font-size: 20px;
+   color: white;
+   margin: 0;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+p {
+    text-align: center;
+    margin-top:  25px;
+    font-style: italic;
+}
+
+form {
+    width: 600px;
+    margin: 20px auto;
+    border-bottom: 2em;
+}
+fieldset {
+    border: none;
+    padding: 20px ;
+    margin: 0 auto;
+    border-right: 5px solid rgb(248, 247, 247);
+    border-left: 5px solid rgb(248, 247, 247)
+}
+.console {
+    margin: 0.5rem auto;
+    background-color: dimgray;
+}
+fieldset:last-of-type {
+    border-bottom: none;
+}  
+label {
+    display: block;
+    margin: 10px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inline {
+    vertical-align: middle;
+    margin: auto;
+    width: auto;
+}
+input, textarea, select{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 1.5em;
+
+}
+input[type="submit"] {
+    display: block;
+    margin:  40px auto;
+    width: 1rem;
+    height: 1.2rem;
+    font-size: 1.5rem;
+    border-color: white;
+    background-color: rgba(150, 0, 0, 0.767);
+    min-width: 400px;
+}
+a {
+    color: rgb(73, 26, 26);
+}
+.end {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}   dd
+.first, .second, .third, .fourth {
+ margin-bottom: -20px;
+}
+.contact {
+    margin: auto;
+    color: lightskyblue;
+}

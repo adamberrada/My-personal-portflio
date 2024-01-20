@@ -1,0 +1,214 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container2 {
+    background-color: black;
+    height: 800px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.title-second-2 {
+    font-style: italic;
+    color: gold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-con2 {
+    margin: 25px 0 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-style: italic;
+}
+.container3{
+    background-color: rgb(31, 31, 47);
+    height: 1450px;
+    margin-top: -25px;
+    color: white;
+    
+
+}
+.title-con3 {
+   margin: 0 auto ;
+   padding-top: 80px;
+   padding-bottom: 70px;
+   width: 1300px;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+   font-size: 38px;
+   font-weight: bold;
+   
+}
+.border-title {
+    border-bottom: solid 3px rgb(255, 220, 22);
+}
+
+.projects-container3{
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    column-gap: 50px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.projects-tags {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 3px solid rgb(16, 16, 39);
+    border-bottom: none;
+    border-top: none;
+    animation: project-anima 5s infinite;
+    cursor: pointer;
+}
+.project-img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+}
+.projects-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 75px;
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+.projects-tags:hover .anacode-left  {
+    opacity: 1;
+}
+.projects-tags:hover .anacode-right  {
+    opacity: 1;
+}
+.anacode-right {
+    width: 25px;
+    margin: 0 0px 0 10px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    color: rgb(75, 29, 29);
+}
+.anacode-left {
+    width: 15px;
+    margin: 0 2px 0 20px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    color: rgb(75, 29, 29);
+}
+
+
+.button-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 0px 0;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(75, 29, 29);
+    border: none;
+    border-radius: 5px ;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover  {
+    background-color: gold;
+    color: black;
+    transition: 1s;  
+}
+.unicode-buttom {
+  opacity: 0;
+  pointer-events: none;
+  
+}
+ button:hover  .unicode-buttom {
+    padding-left: 10px;
+    color: black;
+    opacity: 1;
+    transition: padding-left 0.5s;
+}
+.container4 {
+    background-color: rgb(218, 187, 17);
+    height: 680px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-2-4{
+    font-size: 50px;
+}
+.info-con-2-4 {
+    margin: 15px 0 15px 0;
+}
+.title-second-4 {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.title-third-con4 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    justify-content: center;
+    column-gap: 70px;
+    align-items: center;
+    margin: 50px 20px 50px 20px;
+    height: 100px;
+    width: 1000px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.social-title {
+    height: 30px;
+    width: 150px;
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+}
+.social-title:hover {
+    padding-top: 20px;
+    transition: padding-top 1s;
+}
+.footer-container {
+    background-color: darkgoldenrod;
+    border-top: 5px solid rgb(3, 3, 3);
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-footer {
+    margin-left: 300px;
+}

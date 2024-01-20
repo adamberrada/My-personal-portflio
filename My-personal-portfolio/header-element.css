@@ -1,0 +1,83 @@
+.header {
+    background-color: #4b0404;
+    position: fixed;
+    border-bottom: 2px solid aqua;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    animation: anima 2s infinite;
+}
+@keyframes anima  {
+  50% {border-color: rgb(0, 0, 0);}
+}
+@keyframes project-anima {
+  50% {border-color: rgb(137, 130, 130);}
+}
+.container1 {
+    display: flex;
+    align-items: center;
+}
+    
+.information-tag {
+  color: white;
+  margin: 0 ;
+  width: 100px;
+  height: 70px;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif ;
+}
+.information-tag:hover {
+  cursor: pointer;
+  border: 1px  solid  rgb(255, 255, 255);
+  color:  rgb(255, 255, 255);
+  background-color: rgb(75, 20, 20);
+  transition: background-color 1s,  border 2s ;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+.projects-names span {
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  transition: 0.5s;
+}
+.projects-names span :before {
+content: '&#60';
+color: coral;
+
+opacity: 0;
+top: 0;
+transition: 0.5s;
+}
+.projects-names span :after {
+  content: '&#47' '&#60';
+  color: coral;
+  
+  opacity: 0;
+  right: 10px;
+  transition: 0.5s;
+}
+.projects-names:hover span:after {
+  opacity: 1;
+  right: px;
+}
+.projects-names:hover span:before {
+  opacity: 1;
+  left: -20px;
+} */

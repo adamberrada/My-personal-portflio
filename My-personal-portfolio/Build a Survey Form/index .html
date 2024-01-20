@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles3.css" >
+        <meta charset="UTF-8">
+        <title>freeCodeCamp Survey Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <h1 id="title">freeCodeCamp Survey form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form action="https://survey-form.freecodecamp.org" id="survey-form" method="post">
+        <fieldset class="first">
+            <label id="name-label">Name: <input id="name" name="name-label" type="text" placeholder="Name" required></label>
+            <label id="email-label">Email: <input id="email" name="email-label" type="email" placeholder="Email" required></label>
+            <label id="age-label">Age: <input id="age" name="age-label" type="text" placeholder="Age" required ></label>
+            <label id="tel-label">Enter your phone number: <select calss="console" id="tel-label" name="tel-label"><option value="number">+212</option></select><input id="number" name="tel-label" type="tel" required placeholder="Enter a valid phone number" pattern="" required></label>
+        </fieldset>
+        <fieldset class="second">
+          <label>What do you preffer adding in this site?
+            <label for="information"><input id="information" type="radio" value="information" name="add" class="inline">  Information</label>
+            <label for="data"><input id="data" type="radio" value="data" name="add" class="inline">  Data</label>
+            <label for="style"><input id="style" type="radio" name="add" value="style" class="inline">  Spacial Style</label>
+            <label for="argument"><input id="argumennt" type="radio" name="add" value="argument" class="inline"> Argument</label>
+          </label>  
+        </fieldset>
+        <fieldset class="third">
+          <label>privacy and confidentiality:
+             <label for="give it a chance"><input type="checkbox" value="give it a chance" class="inline">  Give it a chance</label>
+             <label for="no adulte comments"><input type="checkbox" value="no adulte comments" class="inline">  No adulte comments</label>
+             <label for="do not share your personal data"><input type="checkbox" value="do not share your personal data" class="inline">  Do not share your Personal data</label>
+             <label for="conditions"><input type="checkbox" value="conditions" class="inline">  Respect this conditions</label>
+             <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="terms-and-conditions" class="inline">  I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">  terms-and-conditions</a></a></label>
+        </fieldset>
+        <fieldset class="fourth">
+        <label for="dropdown">Please rate this site?
+          <select name="dropdown" id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">1 star</option>
+            <option value="2">2 star</option>
+            <option value="3">3 star</option>
+            <option value="4">4 star</option>
+            <option value="5">5 star</option>
+          </select>  
+        </label>
+        </fieldset>
+        <fieldset>
+          <label class="sexe">Sexe:
+        <label for="male"><input id="male" name="sexe" type="radio" value="male" class="inline" required>Male</label>
+        <labe for="female"><input id="female" name="sexe" type="radio" value="female" class="inline" required>Female</label>
+        </label>
+       </fieldset>
+         <fieldset>
+          <label for="bio"> Type anything..?
+            <textarea id="bio" name="bio" rows="3" cols="100" placeholder="Please type your comments..."></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" id="submit" value="submit" class="end"/>
+      </form>
+      <footer>
+        <p><a href="" target="_blank">Visit our website</a></p>
+        <p class="contact">contact us @Berrada</p>
+      </footer>
+    </body>
+</html>

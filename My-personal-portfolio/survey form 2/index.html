@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Survey Form&lt;/form&gt;</title>
+    <link rel="stylesheet" href="styles4.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="everything">
+        <header class="header">
+        <h1>Survey Form</h1>
+        <p class="adjust">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form class="form">
+            <div class="form-style">
+                        <label for="name">Full Name:<input id="name" name="name" type="text" placeholder="Enter your Full Name" class="description" required="">
+                        </label>
+            </div>
+            <div class="form-style">
+                        <label for="email">
+                            Email:
+                            <input id="email" name="email" type="email" class="description" required="" placeholder="Enter your Email">
+                        </label>
+            </div>
+            <div class="form-style">
+                        <label for="age">
+                            Age:
+<span>(optional)</span>
+                            <input id="age" name="age" type="number" placeholder="Age" min="10" max="99" required="" class="description">
+                      </label>
+            </div>    
+            <div class="form-style">
+                        <label for="password">
+                            Enter your Password:
+                            <input id="password" class="description" name="password" type="password" required="" placeholder="Enter your Password" pattern="\w{1,14}">
+                        </label>
+            </div>
+            <div class="form-style">
+                        <p>Which option best describes your current role?</p>
+                        <select name="role" id="role" class="description">
+                            <option value="">Select current role</option>
+                            <option value="1">student</option>
+                            <option value="2">Full Time Job</option>
+                            <option value="3">full Time Learner</option>
+                            <option value="4">Prefer not to say</option>
+                            <option value="5">Other</option>
+                        </select>
+                    
+            </div>
+            <div class="form-style">
+                       <p>Would you recommend freeCodeCamp to a friend?</p>
+                       <label>
+                                <input id="definitely" name="recommend" type="radio" class="inline">
+                                Definitely
+                        </label>
+            </div>
+            <div class="form-style">
+                        <label>
+                            <input id="maybe" name="recommend" type="radio" class="inline">
+                            Maybe
+                        </label>
+            </div>
+            <div class="form-style">
+                            <label>
+                                <input id="not sure" name="recommend" type="radio" class="inline">
+                                Not sure
+                            </label>
+            </div>
+            <div class="form-style">
+                    <p>What is your favorite feature of freeCodeCamp?</p>
+                        <select id="feature" class="description" name="feature">
+                            <option value="">Select an option</option>
+                            <option value="1">Challenges</option>
+                            <option value="2">Projects</option>
+                            <option value="3">Community</option>
+                            <option value="4">Open Source</option>
+                        </select>
+            </div>
+            <div class="form-style">
+                        <p>What would you like to see improved?(check all that apply)</p>
+                            <label for="front-end projects">
+                                <input id="front-end projects" name="front-end projects" type="checkbox" class="inline">
+                                Front-end Projects
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="back-end projects">
+                                <input id="back-end projects" name="back-end projects" type="checkbox" class="inline">
+                                Back-end Projects
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="data visualization">
+                                <input id="data visualization" name="data visualization" type="checkbox" class="inline">
+                                Data Visualization
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="challenges">
+                                <input id="challenges" name="challenges" type="checkbox" class="inline">
+                                Challenges
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="open source community">
+                                <input id="open source community" name="open source community" type="checkbox" class="inline">
+                                Open Source Community
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="gitter help rooms">
+                                <input id="gitter help rooms" name="gitter help rooms" type="checkbox" class="inline">
+                                Gitter help rooms
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="videos">
+                                <input id="videos" name="videos" type="checkbox" class="inline">
+                                Videos
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="city meetups">
+                                <input id="city meetups" name="city meetups" type="checkbox" class="inline">
+                                City Meetups
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="wiki">
+                                <input id="wiki" name="wiki" type="checkbox" class="inline">
+                                Wiki
+                            </label>
+            </div>
+            <div class="form-style">
+                            <label for="forum">
+                                <input id="forum" name="forum" type="checkbox" class="inline">
+                                Forum
+                            </label>
+            </div>
+            <div class="form-style">
+                <label for="additional courses">
+                    <input id="additional courses" name="additional courses" type="checkbox">
+                    Additional Courses
+                </label>
+            </div>
+            <div class="form-style">
+                        <p>Any comments or suggestions?</p>
+                        <textarea id="bio" name="bio" rows="3" cols="3" placeholder="Enter your comment here..." style="width: 597px; height: 112px;"></textarea>            
+            </div>
+            <div>
+            <input type="submit" value="Submit">
+            </div>
+        </form>             
+    </div>
+<footer class="end">
+    <p><a href="" target="_blank">Visit our website</a></p>
+    <p class="contact">contact us @Berrada</p>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+// <![CDATA[  <-- For SVG support
+if ('WebSocket' in window) {
+    (function () {
+        function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+                var elem = sheets[i];
+                var parent = elem.parentElement || head;
+                parent.removeChild(elem);
+                var rel = elem.rel;
+                if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                    var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                    elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                }
+                parent.appendChild(elem);
+            }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+            if (msg.data == 'reload') window.location.reload();
+            else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+            console.log('Live reload enabled.');
+            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+    })();
+}
+else {
+    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+}
+// ]]>
+</script>
+
+</body></html>
